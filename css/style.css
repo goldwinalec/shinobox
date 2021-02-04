@@ -4,13 +4,13 @@
   font-weight: 300;
 }
 
-body {
+body, .advantages__item-subtitle {
   font-family: "Roboto-Regular", sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
-.list__title, .advantages__first-title {
+.list__title, .advantages__first-title, .advantages__item-title {
   font-family: "Roboto-Medium", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -258,7 +258,7 @@ li {
 }
 
 .advantages__item {
-  padding: 48px 10px 30px;
+  padding: 48px 10px 40px;
   width: 33.33%;
   text-align: center;
 }
@@ -274,10 +274,15 @@ li {
 .advantages__item-title {
   margin: 0;
   text-align: center;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .advantages__item-subtitle {
   display: inline-block;
+  width: 90%;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .advantages__img {
