@@ -1,4 +1,4 @@
-.list__subtitle, .advatages__subtitle {
+.list__subtitle, .advantages__second-title {
   font-family: "Roboto-Light", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -10,7 +10,7 @@ body {
   font-weight: 400;
 }
 
-.list__title, .advantages__title {
+.list__title, .advantages__first-title {
   font-family: "Roboto-Medium", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -212,28 +212,37 @@ li {
   margin: 0;
   padding: 0 10px;
   text-align: center;
+}
+
+.advantages__first-title {
+  display: inline-block;
+  margin: 0;
+  position: relative;
   font-size: 20px;
   line-height: 24px;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
-.advatages__subtitle {
-  display: inline-block;
-  padding-top: 10px;
-  position: relative;
-  margin-top: 10px;
-}
-
-.advatages__subtitle::before {
+.advantages__first-title::after {
   content: "";
   position: absolute;
   right: 0;
   left: 0;
-  top: 0;
+  bottom: 0;
   height: 4px;
-  width: 68%;
+  width: 100%;
   margin: 0 auto;
   background-color: #fff;
+}
+
+.advantages__second-title {
+  color: #ffffff;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
 }
 
 .advantages__inner {
