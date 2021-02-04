@@ -221,4 +221,53 @@ li {
   margin-bottom: 30px;
 }
 
+.promo-2 {
+  background-image: url("/images/promo-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 40%;
+  color: #ffffff;
+  position: relative;
+}
+
+.promo-2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.promo-2__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo-2__img {
+  margin-top: 10px;
+  margin-right: 50px;
+  z-index: 1;
+}
+
+.promo-2__title {
+  @extend %opensans-bold;
+  font-size: 30px;
+  z-index: 1;
+}
+
+.promo-2__subtitle {
+  @extend %opensans-regular;
+  font-size: 24px;
+  display: inline-block;
+}
+
+.Прямоугольник_1_копия_3 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 @import "media";
