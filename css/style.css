@@ -81,6 +81,11 @@ li {
 .features {
   text-align: right;
   background-color: #222222;
+  background-image: url("/images/features-bg.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-position: bottom left;
 }
 
 .features__inner {
@@ -193,6 +198,11 @@ li {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #222222;
+  background-image: url("/images/advantages-bg.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center center;
   position: relative;
 }
 
