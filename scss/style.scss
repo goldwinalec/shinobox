@@ -9,7 +9,7 @@
 
 body {
   overflow-x: hidden;
-  @extend %roboto-regular;
+  @extend %opensans-regular;
   font-size: 18px;
   line-height: 21px;
   color: #222222;
@@ -41,7 +41,7 @@ li {
 }
 
 .features__title {
-  @extend %roboto-bold;
+  @extend %opensans-bold;
   background-color: $blue;
   margin: 0;
   padding: 30px 40px 30px 70px;
@@ -65,12 +65,12 @@ li {
 }
 
 .list__title {
-  @extend %roboto-medium;
+  @extend %opensans-semibold;
   margin: 0;
 }
 
 .list__subtitle {
-  @extend %roboto-light;
+  @extend %opensans-regular;
   margin-top: 10px;
   font-size: 12px;
   line-height: 16px;
@@ -98,7 +98,7 @@ li {
 .promo__title {
   margin: 0;
   padding: 5px;
-  @extend %roboto-bold;
+  @extend %opensans-bold;
   font-size: 40px;
   line-height: 53px;
   text-transform: uppercase;
@@ -139,7 +139,7 @@ li {
 
 .advantages__first-title {
   display: inline-block;
-  @extend %roboto-medium;
+  @extend %opensans-semibold;
   margin: 0;
   position: relative;
   font-size: 20px;
@@ -161,7 +161,7 @@ li {
 }
 
 .advantages__second-title {
-  @extend %roboto-light;
+  @extend %opensans-regular;
   color: #ffffff;
   display: inline-block;
   margin-top: 10px;
@@ -191,7 +191,7 @@ li {
 }
 
 .advantages__item-title {
-  @extend %roboto-medium;
+  @extend %opensans-semibold;
   margin: 0;
   text-align: center;
   font-size: 20px;
@@ -200,7 +200,7 @@ li {
 
 .advantages__item-subtitle {
   display: inline-block;
-  @extend %roboto-regular;
+  @extend %opensans-regular;
   width: 90%;
   font-size: 18px;
   line-height: 22px;

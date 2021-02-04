@@ -1,23 +1,17 @@
-.list__subtitle, .advantages__second-title {
-  font-family: "Roboto-Light", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-}
-
-body, .advantages__item-subtitle {
-  font-family: "Roboto-Regular", sans-serif;
+body, .list__subtitle, .advantages__second-title, .advantages__item-subtitle {
+  font-family: "Open-Sans-Regular", sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
 .list__title, .advantages__first-title, .advantages__item-title {
-  font-family: "Roboto-Medium", sans-serif;
+  font-family: "Open-Sans-Semibold", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .features__title, .promo__title {
-  font-family: "Roboto-Bold", sans-serif;
+  font-family: "Open-Sans-Bold", sans-serif;
   font-style: normal;
   font-weight: 700;
 }

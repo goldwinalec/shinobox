@@ -1,27 +1,18 @@
-%roboto-light {
-  font-family: "Roboto-Light", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-}
-%roboto-regular {
-  font-family: "Roboto-Regular", sans-serif;
+%opensans-regular {
+  font-family: "Open-Sans-Regular", sans-serif;
   font-style: normal;
   font-weight: 400;
 }
-%roboto-medium {
-  font-family: "Roboto-Medium", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-}
-%roboto-bold {
-  font-family: "Roboto-Bold", sans-serif;
+
+%opensans-semibold {
+  font-family: "Open-Sans-Semibold", sans-serif;
   font-style: normal;
   font-weight: 700;
 }
-%roboto-black {
-  font-family: "Roboto-Black", sans-serif;
+%opensans-bold {
+  font-family: "Open-Sans-Bold", sans-serif;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 $yellow: #f2e185;
