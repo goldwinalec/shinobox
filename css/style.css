@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body, .list__subtitle, .advantages__second-title, .advantages__item-subtitle, .promo-2__subtitle {
   font-family: "Open-Sans-Regular", sans-serif;
   font-style: normal;
@@ -77,6 +76,12 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.container {
+  max-width: 1805px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 .features {
@@ -358,8 +363,4 @@ li {
 .promo-2__subtitle {
   font-size: 24px;
   display: inline-block;
-}
-
-.Прямоугольник_1_копия_3 {
-  background-color: rgba(0, 0, 0, 0.4);
 }
