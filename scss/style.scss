@@ -1,0 +1,84 @@
+@import "vars";
+@import "fonts";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  @extend %roboto-regular;
+  font-size: 18px;
+  line-height: 21px;
+  color: #222222;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.features {
+  text-align: right;
+  background-color: $yellow;
+}
+
+.features__inner {
+  width: 40%;
+  display: inline-block;
+  text-align: left;
+}
+
+.features__title {
+  @extend %roboto-bold;
+  background-color: $blue;
+  margin: 0;
+  padding: 30px 40px 30px 70px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 53px;
+  letter-spacing: 2px;
+}
+
+.features__list {
+  padding: 30px 40px 30px 70px;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+}
+.list__item + .list__item {
+  margin-top: 30px;
+}
+
+.list__title {
+  @extend %roboto-medium;
+  margin: 0;
+}
+
+.list__subtitle {
+  @extend %roboto-light;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  display: block;
+}
+
+.list__img {
+  margin-right: 40px;
+  text-align: center;
+  width: 40px;
+}
+
+@import "media";
