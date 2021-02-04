@@ -11,7 +11,7 @@ body {
   overflow-x: hidden;
   @extend %opensans-regular;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.34;
   color: #222222;
   background-color: #fff;
 }
@@ -51,8 +51,7 @@ li {
   padding: 30px 40px 30px 70px;
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 40px;
-  line-height: 53px;
+  font-size: 50px;
   letter-spacing: 2px;
 }
 
@@ -72,14 +71,12 @@ li {
   @extend %opensans-semibold;
   margin: 0;
   font-size: 22px;
-  line-height: 1.3;
 }
 
 .list__subtitle {
   @extend %opensans-regular;
   margin-top: 10px;
   font-size: 16px;
-  line-height: 1.3;
   display: block;
 }
 
@@ -157,8 +154,7 @@ li {
   @extend %opensans-semibold;
   margin: 0;
   position: relative;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 22px;
   text-transform: uppercase;
   padding-bottom: 10px;
 }
@@ -180,8 +176,7 @@ li {
   color: #ffffff;
   display: inline-block;
   margin-top: 10px;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 22px;
   text-transform: uppercase;
 }
 
