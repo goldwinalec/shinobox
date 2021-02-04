@@ -13,6 +13,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #222222;
+  background-color: #fff;
 }
 
 a {
@@ -29,13 +30,14 @@ li {
 
 .features {
   text-align: right;
-  background-color: $yellow;
+  background-color: #222222;
 }
 
 .features__inner {
   width: 40%;
   display: inline-block;
   text-align: left;
+  background-color: $yellow;
 }
 
 .features__title {
@@ -113,6 +115,85 @@ li {
 .promo__img {
   margin: -30px 0;
   margin-right: 60px;
+}
+
+.advantages {
+  display: flex;
+  align-items: bottom;
+  justify-content: center;
+  background-color: #222222;
+  position: relative;
+}
+
+.advantages__title {
+  @extend %roboto-medium;
+  width: 26%;
+  vertical-align: bottom;
+  color: #ffffff;
+  position: absolute;
+  bottom: 46px;
+  left: 0;
+  margin: 0;
+  padding: 0 10px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.advatages__subtitle {
+  @extend %roboto-light;
+  display: inline-block;
+  padding-top: 10px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.advatages__subtitle::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 4px;
+  width: 68%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.advantages__inner {
+  width: 74%;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages__item {
+  padding: 48px 10px 30px;
+  width: 33.33%;
+  text-align: center;
+}
+
+.advantages__item:nth-child(odd) {
+  background-color: #ffffff;
+}
+.advantages__item:nth-child(even) {
+  background-color: $yellow;
+}
+
+.advantages__item-title {
+  margin: 0;
+  text-align: center;
+}
+
+.advantages__item-subtitle {
+  display: inline-block;
+}
+
+.advantages__img {
+  width: 233px;
+  height: 176px;
+  margin-bottom: 30px;
 }
 
 @import "media";
