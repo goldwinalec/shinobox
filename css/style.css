@@ -198,11 +198,6 @@ li {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #222222;
-  background-image: url("/images/advantages-bg.jpg");
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-          background-size: cover;
-  background-position: center center;
   position: relative;
 }
 
@@ -211,11 +206,34 @@ li {
   vertical-align: bottom;
   color: #ffffff;
   position: absolute;
-  bottom: 46px;
+  bottom: 0;
+  top: 0;
   left: 0;
   margin: 0;
   padding: 0 10px;
   text-align: center;
+  background-image: url("/images/advantages-bg.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .advantages__first-title {
