@@ -466,3 +466,26 @@ li {
 .rates__link:hover::after {
   background-color: #ddd;
 }
+
+.extra {
+  padding: 70px;
+  background-color: #222222;
+  background-image: url("/images/extra-services-bg.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.extra::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
