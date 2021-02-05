@@ -588,6 +588,7 @@ li {
 }
 
 .extra__item {
+  background-color: rgba(29, 119, 231, 0.8);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -650,9 +651,7 @@ li {
 }
 
 .extra__header {
-  background-color: rgba(29, 119, 231, 0.8);
   width: 100%;
-  height: 70%;
   padding: 200px 60px 40px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -666,6 +665,7 @@ li {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: auto;
 }
 
 .extra__footer {
@@ -799,6 +799,19 @@ li {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .feedback__header {
@@ -811,7 +824,7 @@ li {
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding: 10px 20px;
+  padding: 10px 45px;
   color: #fff;
   border-radius: 10px 10px 0 0;
   -webkit-border-radius: 10px 10px 0 0;
@@ -858,10 +871,12 @@ li {
 
 .feedback__link {
   margin-top: 35px;
+  text-decoration: underline;
 }
 
 .feedback__main {
   padding: 0 45px;
+  margin-bottom: auto;
 }
 
 .feebdack__stars {
@@ -885,6 +900,7 @@ li {
 }
 
 .feedback__bottom {
+  background-color: #ece9e4;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -897,13 +913,29 @@ li {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 15px;
+  width: 100%;
 }
 
 .feedback__bottom-link {
-  margin-top: 15px;
-  width: 100%;
+  padding: 15px;
+  text-decoration: underline;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.feedback__bottom-img {
+  height: 51px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 20px;
 }
