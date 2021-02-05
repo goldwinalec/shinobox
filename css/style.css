@@ -7,7 +7,7 @@ body, .list__subtitle, .advantages__second-title, .advantages__item-subtitle, .p
 .list__title, .advantages__first-title, .advantages__item-title {
   font-family: "Open-Sans-Semibold", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .features__title, .promo__title, .promo-2__title {
