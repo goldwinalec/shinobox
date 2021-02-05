@@ -277,6 +277,19 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.rates::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(#000, 0.6);
+  z-index: -1;
 }
 
 .rates__title {
@@ -340,6 +353,28 @@ li {
 
 .rates__text {
   margin-bottom: 20px;
+}
+
+.rates__link {
+  position: relative;
+}
+
+.rates__link::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.rates__link:hover {
+  color: #ddd;
+}
+.rates__link:hover::after {
+  background-color: #ddd;
 }
 
 @import "media";
