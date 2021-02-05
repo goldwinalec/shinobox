@@ -10,7 +10,7 @@ body, .list__subtitle, .advantages__second-title, .advantages__item-subtitle, .p
   font-weight: 600;
 }
 
-.features__title, .promo__title, .promo-2__title {
+.features__title, .promo__title, .promo-2__title, .rates__title, .rates__price, .rates__btn {
   font-family: "Open-Sans-Bold", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -313,6 +313,7 @@ li {
 }
 
 .promo-2 {
+  background-color: #222222;
   background-image: url("/images/promo-bg.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -363,4 +364,83 @@ li {
 .promo-2__subtitle {
   font-size: 24px;
   display: inline-block;
+}
+
+.rates {
+  padding: 70px 70px;
+  background-color: #222222;
+  background-image: url("/images/rates-bg.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  color: #ffffff;
+}
+
+.rates__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 0;
+  margin-bottom: 65px;
+}
+
+.rates__items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.rates__item {
+  background-color: #1d77e7;
+  padding: 35px 0 0;
+  text-align: center;
+  width: 22%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.rates__price {
+  font-size: 50px;
+  border-bottom: 1px #fff solid;
+  padding: 0 10px 30px;
+}
+
+.rates__time {
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 30px 10px;
+}
+
+.rates__btn {
+  background-color: #f2e185;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 30px 10px;
+  border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -ms-border-radius: 0 0 10px 10px;
+  -o-border-radius: 0 0 10px 10px;
+  font-size: 36px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.rates__text {
+  margin-bottom: 20px;
 }
