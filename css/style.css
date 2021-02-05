@@ -48,7 +48,7 @@ body {
   overflow-x: hidden;
   font-size: 18px;
   line-height: 1.34;
-  color: #222222;
+  color: #000;
   background-color: #fff;
 }
 
@@ -938,4 +938,32 @@ li {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   margin-right: 20px;
+}
+
+.about {
+  background-color: #222;
+  background-image: url("/images/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: -70% center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.about::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.about__inner {
+  padding: 70px;
+  background-color: #f2e185;
+  width: 40%;
 }
